@@ -2,7 +2,7 @@
 
 Учебный проект: две страницы макета, HTML и CSS без фреймворков и логики.
 
-- **Макет:** https://www.figma.com/design/xc3VHAMZNq9Nm9x2TgnHei/Locofy-Sample-Project---Talking-Travel--Community-
+- **Макет:** https://www.figma.com/design/xC3VHAMZNq9Nm9x2TgnHei/Locofy-Sample-Project---Talking-Travel--Community-
 - **Опубликованная версия:**  https://heitonbg.github.io/firstlab/
 
 ## Структура проекта
@@ -26,7 +26,7 @@
 | Итого план | 24.3 ч |
 | Резерв 15% | 3.6 ч |
 | Плановый объём | 27.9 ч |
-| Итого факт (без п.24–25) | 25.9 ч |
+| Итого факт | 26.9 ч |
 
 Подробная таблица — в [docs/estimate.md](docs/estimate.md).
 
