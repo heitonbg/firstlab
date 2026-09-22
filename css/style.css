@@ -489,3 +489,28 @@ button, input { font: inherit; }
     align-items: center;
   }
 }
+
+/* ===== Адаптив: мобильный (до 768px) ===== */
+@media (max-width: 47.99em) {
+  .site-header__inner {
+    flex-wrap: wrap;
+  }
+  .site-nav {
+    order: 3;
+    width: 100%;
+  }
+  .site-nav__list {
+    flex-direction: column;
+    gap: var(--space-2);
+    padding-block: var(--space-4);
+    border-top: 1px solid var(--color-border);
+  }
+  .hero__inner { padding-block: var(--space-8); }
+  .hero__title { font-size: clamp(1.75rem, 1.2rem + 4vw, 2.5rem); }
+  .destination-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+  .adventure__gallery {
+    grid-template-columns: 1fr;
+  }
+}
