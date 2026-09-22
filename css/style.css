@@ -466,3 +466,26 @@ button, input { font: inherit; }
   object-fit: cover;
   width: 100%;
 }
+
+/* ===== Адаптив: планшет (768px и шире) ===== */
+@media (min-width: 48em) {
+  .featured__inner {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .recent-grid {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "large small1"
+      "large small2";
+  }
+  .recent-grid__large { grid-area: large; }
+  .recent-grid li:nth-child(2) { grid-area: small1; }
+  .recent-grid li:nth-child(3) { grid-area: small2; }
+
+  .site-footer__inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
