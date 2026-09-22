@@ -3,7 +3,7 @@
 Учебный проект: две страницы макета, HTML и CSS без фреймворков и логики.
 
 - **Макет:** https://www.figma.com/design/xc3VHAMZNq9Nm9x2TgnHei/Locofy-Sample-Project---Talking-Travel--Community-
-- **Опубликованная версия:** 
+- **Опубликованная версия:**  https://heitonbg.github.io/firstlab/
 
 ## Структура проекта
 
