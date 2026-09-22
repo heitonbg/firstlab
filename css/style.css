@@ -322,3 +322,39 @@ button, input { font: inherit; }
 .join-form__form .button {
   justify-content: center;
 }
+
+/* ===== Recent story ===== */
+.recent { padding-block: var(--space-16); }
+.recent-grid {
+  display: grid;
+  gap: var(--space-8);
+  grid-template-columns: 1fr;
+  margin: 0; padding: 0;
+  list-style: none;
+}
+.story-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.story-card img {
+  border-radius: var(--radius-m);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  width: 100%;
+}
+.story-card--large img { aspect-ratio: 16 / 9; }
+.story-card__title {
+  margin: 0;
+  font-size: var(--step-1);
+  font-weight: 600;
+}
+.story-card--large .story-card__title { font-size: var(--step-2); }
+.story-card__excerpt {
+  margin: 0;
+  color: var(--color-muted);
+}
+.story-card__date {
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
