@@ -260,3 +260,65 @@ button, input { font: inherit; }
   max-width: 55ch;
   color: var(--color-muted);
 }
+
+/* ===== Destinations ===== */
+.destinations { padding-block: var(--space-16); }
+.destination-grid {
+  display: grid;
+  gap: var(--space-8);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 0; padding: 0;
+  list-style: none;
+}
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  text-align: center;
+}
+.destination-card img {
+  border-radius: var(--radius-m);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  width: 100%;
+}
+.destination-card__title {
+  margin: 0;
+  font-size: var(--step-1);
+  font-weight: 600;
+}
+
+/* ===== Join form ===== */
+.join-form {
+  background: var(--color-surface-2);
+  padding-block: var(--space-16);
+}
+.join-form__inner {
+  max-width: 480px;
+  margin-inline: auto;
+  text-align: center;
+}
+.join-form__subtitle {
+  color: var(--color-muted);
+  margin: 0 0 var(--space-8);
+}
+.join-form__form {
+  display: grid;
+  gap: var(--space-4);
+  text-align: left;
+}
+.join-form__form input {
+  width: 100%;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-s);
+  background: var(--color-surface);
+}
+.join-form__form input:focus {
+  border-color: var(--color-accent);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(123, 91, 245, 0.15);
+}
+.join-form__form .button {
+  justify-content: center;
+}
